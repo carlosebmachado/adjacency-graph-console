@@ -185,7 +185,7 @@ void graphDFS(std::vector<std::string> param) {
 		if (param.size() == 1) {
 			auto vertex = curGraph->getVertex(param[0]);
 			if (vertex) {
-				curGraph->DFS(vertex);
+				curGraph->DFSMatrix(vertex);
 				printMessage("");
 				return;
 			}
