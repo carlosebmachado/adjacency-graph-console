@@ -1,2 +1,1 @@
-# adjacency-graph-console
- 
+# Adjacency Graph
